@@ -1,3 +1,5 @@
+🌐 Language: English | [فارسی](README.fa.md)
+
 # 📡 NewsBot — Cloudflare Worker News Bot
 
 A lightweight news aggregator built on **Cloudflare Workers** that fetches articles from multiple sources, translates them to Persian, and delivers them to **Telegram** and/or **Bale** messenger — automatically, on a schedule you set.
@@ -89,8 +91,13 @@ const CONFIG = {
 2. It will reply with your user ID
 
 **How to get a Bale bot token:**
-1. Open Bale and go to the bot creation panel at [dev.bale.ai](https://dev.bale.ai)
-2. Create a bot and copy the token
+1. Open Bale and search for `@BotFather`
+2. Send `/newbot` and follow the steps
+3. Copy the token it gives you
+
+**How to find your Bale chat ID:**
+1. Send a message to `@userinfobot`
+2. It will reply with your user ID
 
 ---
 
@@ -183,4 +190,4 @@ MIT License — free to use, modify, and share.
 
 ---
 
-*Made With Love by ValtorByte ❤️*
+*❤️Made With Love by ValtorByte❤️*
